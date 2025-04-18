@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0;url=http://localhost:8000/">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting to the application...</h1>
+        <p>If you are not automatically redirected, please <a href="http://localhost:8000/">click here</a>.</p>
+        <p>The application must be running at <code>http://localhost:8000</code> for this to work.</p>
+        <hr>
+        <h2>Troubleshooting</h2>
+        <ol>
+            <li>Make sure the FastAPI server is running using <code>python gem.py</code></li>
+            <li>Check that the server is accessible at <code>http://localhost:8000</code></li>
+            <li>If you changed the port, update this redirect page accordingly</li>
+        </ol>
+    </div>
+</body>
+</html>
